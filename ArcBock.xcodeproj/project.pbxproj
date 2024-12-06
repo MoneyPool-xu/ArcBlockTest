@@ -1,0 +1,685 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		49F331FE2437CAA99142A12C /* Pods_ArcBock_ArcBockUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75BB8CFCD3E39625CEAA5931 /* Pods_ArcBock_ArcBockUITests.framework */; };
+		CFD03F6044445DC8610CE0FD /* Pods_ArcBockTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FAF58299318ADFDAD03D692 /* Pods_ArcBockTests.framework */; };
+		DFA5523EB32DD982521C527E /* Pods_ArcBock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0E61FE50DDC8CC868DD9B7D /* Pods_ArcBock.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AD04C1872D02F43100DD0B39 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD04C16E2D02F42F00DD0B39 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD04C1752D02F42F00DD0B39;
+			remoteInfo = ArcBock;
+		};
+		AD04C1912D02F43100DD0B39 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD04C16E2D02F42F00DD0B39 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD04C1752D02F42F00DD0B39;
+			remoteInfo = ArcBock;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0FAF58299318ADFDAD03D692 /* Pods_ArcBockTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArcBockTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		250C88A250BCC4F7C3C20DE2 /* Pods-ArcBockTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArcBockTests.debug.xcconfig"; path = "Target Support Files/Pods-ArcBockTests/Pods-ArcBockTests.debug.xcconfig"; sourceTree = "<group>"; };
+		75BB8CFCD3E39625CEAA5931 /* Pods_ArcBock_ArcBockUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArcBock_ArcBockUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		79F76D504DD9851DC9D8B0AE /* Pods-ArcBock.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArcBock.release.xcconfig"; path = "Target Support Files/Pods-ArcBock/Pods-ArcBock.release.xcconfig"; sourceTree = "<group>"; };
+		8BFA3EAD19F66A31EB77804F /* Pods-ArcBock-ArcBockUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArcBock-ArcBockUITests.debug.xcconfig"; path = "Target Support Files/Pods-ArcBock-ArcBockUITests/Pods-ArcBock-ArcBockUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A0E61FE50DDC8CC868DD9B7D /* Pods_ArcBock.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArcBock.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD04C1762D02F42F00DD0B39 /* ArcBock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArcBock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD04C1862D02F43100DD0B39 /* ArcBockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArcBockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD04C1902D02F43100DD0B39 /* ArcBockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArcBockUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0A8320C7E9C4DB5D2D93D5A /* Pods-ArcBock-ArcBockUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArcBock-ArcBockUITests.release.xcconfig"; path = "Target Support Files/Pods-ArcBock-ArcBockUITests/Pods-ArcBock-ArcBockUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E8BDC614C12AF2F1F0087703 /* Pods-ArcBock.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArcBock.debug.xcconfig"; path = "Target Support Files/Pods-ArcBock/Pods-ArcBock.debug.xcconfig"; sourceTree = "<group>"; };
+		F2EE00A6D29B8B951D777D6F /* Pods-ArcBockTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArcBockTests.release.xcconfig"; path = "Target Support Files/Pods-ArcBockTests/Pods-ArcBockTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		AD04C1782D02F42F00DD0B39 /* ArcBock */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
+			path = ArcBock;
+			sourceTree = "<group>";
+		};
+		AD04C1892D02F43100DD0B39 /* ArcBockTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
+			path = ArcBockTests;
+			sourceTree = "<group>";
+		};
+		AD04C1932D02F43100DD0B39 /* ArcBockUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
+			path = ArcBockUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD04C1732D02F42F00DD0B39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFA5523EB32DD982521C527E /* Pods_ArcBock.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD04C1832D02F43100DD0B39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFD03F6044445DC8610CE0FD /* Pods_ArcBockTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD04C18D2D02F43100DD0B39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49F331FE2437CAA99142A12C /* Pods_ArcBock_ArcBockUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7A86397655180167917D4516 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E8BDC614C12AF2F1F0087703 /* Pods-ArcBock.debug.xcconfig */,
+				79F76D504DD9851DC9D8B0AE /* Pods-ArcBock.release.xcconfig */,
+				8BFA3EAD19F66A31EB77804F /* Pods-ArcBock-ArcBockUITests.debug.xcconfig */,
+				D0A8320C7E9C4DB5D2D93D5A /* Pods-ArcBock-ArcBockUITests.release.xcconfig */,
+				250C88A250BCC4F7C3C20DE2 /* Pods-ArcBockTests.debug.xcconfig */,
+				F2EE00A6D29B8B951D777D6F /* Pods-ArcBockTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AD04C16D2D02F42F00DD0B39 = {
+			isa = PBXGroup;
+			children = (
+				AD04C1782D02F42F00DD0B39 /* ArcBock */,
+				AD04C1892D02F43100DD0B39 /* ArcBockTests */,
+				AD04C1932D02F43100DD0B39 /* ArcBockUITests */,
+				AD04C1772D02F42F00DD0B39 /* Products */,
+				7A86397655180167917D4516 /* Pods */,
+				FA6B36200EA3CC2B9D1EADF1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AD04C1772D02F42F00DD0B39 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD04C1762D02F42F00DD0B39 /* ArcBock.app */,
+				AD04C1862D02F43100DD0B39 /* ArcBockTests.xctest */,
+				AD04C1902D02F43100DD0B39 /* ArcBockUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA6B36200EA3CC2B9D1EADF1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A0E61FE50DDC8CC868DD9B7D /* Pods_ArcBock.framework */,
+				75BB8CFCD3E39625CEAA5931 /* Pods_ArcBock_ArcBockUITests.framework */,
+				0FAF58299318ADFDAD03D692 /* Pods_ArcBockTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD04C1752D02F42F00DD0B39 /* ArcBock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD04C19A2D02F43100DD0B39 /* Build configuration list for PBXNativeTarget "ArcBock" */;
+			buildPhases = (
+				6D912F1239118E936970A67B /* [CP] Check Pods Manifest.lock */,
+				AD04C1722D02F42F00DD0B39 /* Sources */,
+				AD04C1732D02F42F00DD0B39 /* Frameworks */,
+				AD04C1742D02F42F00DD0B39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				AD04C1782D02F42F00DD0B39 /* ArcBock */,
+			);
+			name = ArcBock;
+			productName = ArcBock;
+			productReference = AD04C1762D02F42F00DD0B39 /* ArcBock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD04C1852D02F43100DD0B39 /* ArcBockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD04C19D2D02F43100DD0B39 /* Build configuration list for PBXNativeTarget "ArcBockTests" */;
+			buildPhases = (
+				0FFD55754A8FB4E8F36C94FD /* [CP] Check Pods Manifest.lock */,
+				AD04C1822D02F43100DD0B39 /* Sources */,
+				AD04C1832D02F43100DD0B39 /* Frameworks */,
+				AD04C1842D02F43100DD0B39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD04C1882D02F43100DD0B39 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				AD04C1892D02F43100DD0B39 /* ArcBockTests */,
+			);
+			name = ArcBockTests;
+			productName = ArcBockTests;
+			productReference = AD04C1862D02F43100DD0B39 /* ArcBockTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AD04C18F2D02F43100DD0B39 /* ArcBockUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD04C1A02D02F43100DD0B39 /* Build configuration list for PBXNativeTarget "ArcBockUITests" */;
+			buildPhases = (
+				1AE13BEE47280AF01EA2FFFB /* [CP] Check Pods Manifest.lock */,
+				AD04C18C2D02F43100DD0B39 /* Sources */,
+				AD04C18D2D02F43100DD0B39 /* Frameworks */,
+				AD04C18E2D02F43100DD0B39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD04C1922D02F43100DD0B39 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				AD04C1932D02F43100DD0B39 /* ArcBockUITests */,
+			);
+			name = ArcBockUITests;
+			productName = ArcBockUITests;
+			productReference = AD04C1902D02F43100DD0B39 /* ArcBockUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD04C16E2D02F42F00DD0B39 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					AD04C1752D02F42F00DD0B39 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					AD04C1852D02F43100DD0B39 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = AD04C1752D02F42F00DD0B39;
+					};
+					AD04C18F2D02F43100DD0B39 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = AD04C1752D02F42F00DD0B39;
+					};
+				};
+			};
+			buildConfigurationList = AD04C1712D02F42F00DD0B39 /* Build configuration list for PBXProject "ArcBock" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD04C16D2D02F42F00DD0B39;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = AD04C1772D02F42F00DD0B39 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD04C1752D02F42F00DD0B39 /* ArcBock */,
+				AD04C1852D02F43100DD0B39 /* ArcBockTests */,
+				AD04C18F2D02F43100DD0B39 /* ArcBockUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD04C1742D02F42F00DD0B39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD04C1842D02F43100DD0B39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD04C18E2D02F43100DD0B39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0FFD55754A8FB4E8F36C94FD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ArcBockTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1AE13BEE47280AF01EA2FFFB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ArcBock-ArcBockUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D912F1239118E936970A67B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ArcBock-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD04C1722D02F42F00DD0B39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD04C1822D02F43100DD0B39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD04C18C2D02F43100DD0B39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD04C1882D02F43100DD0B39 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD04C1752D02F42F00DD0B39 /* ArcBock */;
+			targetProxy = AD04C1872D02F43100DD0B39 /* PBXContainerItemProxy */;
+		};
+		AD04C1922D02F43100DD0B39 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD04C1752D02F42F00DD0B39 /* ArcBock */;
+			targetProxy = AD04C1912D02F43100DD0B39 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AD04C1982D02F43100DD0B39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AD04C1992D02F43100DD0B39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD04C19B2D02F43100DD0B39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8BDC614C12AF2F1F0087703 /* Pods-ArcBock.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ArcBock/Preview Content\"";
+				DEVELOPMENT_TEAM = EP73U6E2WX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xbm.ArcBock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AD04C19C2D02F43100DD0B39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79F76D504DD9851DC9D8B0AE /* Pods-ArcBock.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ArcBock/Preview Content\"";
+				DEVELOPMENT_TEAM = EP73U6E2WX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xbm.ArcBock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AD04C19E2D02F43100DD0B39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 250C88A250BCC4F7C3C20DE2 /* Pods-ArcBockTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = EP73U6E2WX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xbm.ArcBockTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ArcBock.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ArcBock";
+			};
+			name = Debug;
+		};
+		AD04C19F2D02F43100DD0B39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2EE00A6D29B8B951D777D6F /* Pods-ArcBockTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = EP73U6E2WX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xbm.ArcBockTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ArcBock.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ArcBock";
+			};
+			name = Release;
+		};
+		AD04C1A12D02F43100DD0B39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BFA3EAD19F66A31EB77804F /* Pods-ArcBock-ArcBockUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = EP73U6E2WX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xbm.ArcBockUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ArcBock;
+			};
+			name = Debug;
+		};
+		AD04C1A22D02F43100DD0B39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0A8320C7E9C4DB5D2D93D5A /* Pods-ArcBock-ArcBockUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = EP73U6E2WX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xbm.ArcBockUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ArcBock;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD04C1712D02F42F00DD0B39 /* Build configuration list for PBXProject "ArcBock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD04C1982D02F43100DD0B39 /* Debug */,
+				AD04C1992D02F43100DD0B39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD04C19A2D02F43100DD0B39 /* Build configuration list for PBXNativeTarget "ArcBock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD04C19B2D02F43100DD0B39 /* Debug */,
+				AD04C19C2D02F43100DD0B39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD04C19D2D02F43100DD0B39 /* Build configuration list for PBXNativeTarget "ArcBockTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD04C19E2D02F43100DD0B39 /* Debug */,
+				AD04C19F2D02F43100DD0B39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD04C1A02D02F43100DD0B39 /* Build configuration list for PBXNativeTarget "ArcBockUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD04C1A12D02F43100DD0B39 /* Debug */,
+				AD04C1A22D02F43100DD0B39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD04C16E2D02F42F00DD0B39 /* Project object */;
+}

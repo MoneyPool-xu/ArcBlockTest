@@ -1,0 +1,769 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		144F86CA6EFB8D0862DED743234FE62D /* Pods-ArcBock-ArcBockUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BE4ED88FAAD10BB06F14160FDFE92514 /* Pods-ArcBock-ArcBockUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		16BD66998C96F294ACB3D4F910DFE39A /* Pods-ArcBock-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A398865A58D433ED1AF9CAA6E534DD8F /* Pods-ArcBock-dummy.m */; };
+		35F7C64C667D550EFE8661AFDBA1FD59 /* Pods-ArcBock-ArcBockUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 794341FF5C085D618305C673A7742513 /* Pods-ArcBock-ArcBockUITests-dummy.m */; };
+		7309C7B76003EFE3AF4269C7E531930A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		75CD99C971A848FD2A34097008249140 /* Pods-ArcBockTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A21718CAD98D61E1366DCE9CE61894A7 /* Pods-ArcBockTests-dummy.m */; };
+		8845BB57996B333CFB2803392585620B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		AB072D5D8C4BCC3E050CBF72C418E34F /* Pods-ArcBock-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 99123CCFCD29BE1F59F059C233EEB4F9 /* Pods-ArcBock-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E2A55894BBAEE4B1B09C923C40346D65 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		ED67FECAA05FC50BA7D0FCFD965D26B1 /* Pods-ArcBockTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C99B0B8C334B8AA4A47A864565A88D28 /* Pods-ArcBockTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5A07537340CBFA6EC474B0AE6A6A5079 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5EB82C1FB275B6EE086CE09172EDC917;
+			remoteInfo = "Pods-ArcBock";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05172CC350D3B2C0310A254ADB085DF1 /* Pods-ArcBock-ArcBockUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ArcBock-ArcBockUITests"; path = Pods_ArcBock_ArcBockUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		18E1CCB6ECAA3B74A27D03126CD421D8 /* Pods-ArcBockTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ArcBockTests.release.xcconfig"; sourceTree = "<group>"; };
+		3472DBF5931F22F5FBEEECE957C7E293 /* Pods-ArcBock-ArcBockUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ArcBock-ArcBockUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		37F90CEE4DE30631AFF4F7BA7121F70B /* Pods-ArcBock */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ArcBock"; path = Pods_ArcBock.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		51B5F504F25D5CC4296EDDD128C17047 /* Pods-ArcBock.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ArcBock.release.xcconfig"; sourceTree = "<group>"; };
+		681E263699D6CBC888A8932520BD2116 /* Pods-ArcBock-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ArcBock-acknowledgements.plist"; sourceTree = "<group>"; };
+		75FF74108D0E7ECFF061C766EFC71F79 /* Pods-ArcBockTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ArcBockTests.modulemap"; sourceTree = "<group>"; };
+		794341FF5C085D618305C673A7742513 /* Pods-ArcBock-ArcBockUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ArcBock-ArcBockUITests-dummy.m"; sourceTree = "<group>"; };
+		8024B49C13622492C59AFCC44C7C54B1 /* Pods-ArcBockTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ArcBockTests"; path = Pods_ArcBockTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		852FC580D9E32B4C4DFE6E6322531E0E /* Pods-ArcBockTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ArcBockTests-Info.plist"; sourceTree = "<group>"; };
+		99091665C742CB6F72FF71FA2BF66A12 /* Pods-ArcBockTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ArcBockTests.debug.xcconfig"; sourceTree = "<group>"; };
+		99123CCFCD29BE1F59F059C233EEB4F9 /* Pods-ArcBock-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ArcBock-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A1D3859CD783B754A703A0803A01684C /* Pods-ArcBock-ArcBockUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ArcBock-ArcBockUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		A21718CAD98D61E1366DCE9CE61894A7 /* Pods-ArcBockTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ArcBockTests-dummy.m"; sourceTree = "<group>"; };
+		A398865A58D433ED1AF9CAA6E534DD8F /* Pods-ArcBock-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ArcBock-dummy.m"; sourceTree = "<group>"; };
+		A488ABD0F06D7E806DA014F6E506B8B1 /* Pods-ArcBockTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ArcBockTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		A95FFDAB891CF850A5D4295E42F19410 /* Pods-ArcBockTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ArcBockTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B05FBD29B70EEC19E03250F4450E0A36 /* Pods-ArcBock-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ArcBock-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BE4ED88FAAD10BB06F14160FDFE92514 /* Pods-ArcBock-ArcBockUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ArcBock-ArcBockUITests-umbrella.h"; sourceTree = "<group>"; };
+		C44773E5894574BF86E62EF51CD03397 /* Pods-ArcBock.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ArcBock.modulemap"; sourceTree = "<group>"; };
+		C99B0B8C334B8AA4A47A864565A88D28 /* Pods-ArcBockTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ArcBockTests-umbrella.h"; sourceTree = "<group>"; };
+		CE80475E9643AC4A3343FE54DA26BDFC /* Pods-ArcBock-ArcBockUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ArcBock-ArcBockUITests-Info.plist"; sourceTree = "<group>"; };
+		D2476C176179F02111EE2CF55131A3F7 /* Pods-ArcBock-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ArcBock-Info.plist"; sourceTree = "<group>"; };
+		D3DA3A5D4B6088415EA306C39336737A /* Pods-ArcBock-ArcBockUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ArcBock-ArcBockUITests.modulemap"; sourceTree = "<group>"; };
+		D7E6898768FD39E06F31C25E28B7D764 /* Pods-ArcBock.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ArcBock.debug.xcconfig"; sourceTree = "<group>"; };
+		ECBCA73C71581B0A13E255FAB5EAF1E5 /* Pods-ArcBock-ArcBockUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ArcBock-ArcBockUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F760D68171A717CD5F8E8C1F8AEBC5A6 /* Pods-ArcBock-ArcBockUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ArcBock-ArcBockUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03EBC62443FE24B70DB9C31D14CAC787 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2A55894BBAEE4B1B09C923C40346D65 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		538555445FFDE23FC3724F9EDBE95AE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7309C7B76003EFE3AF4269C7E531930A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE293E31E27A6DA0538748EEC7DAE6C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8845BB57996B333CFB2803392585620B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0CB60EF9A78FF0A052EBD23664C44FF0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				37F90CEE4DE30631AFF4F7BA7121F70B /* Pods-ArcBock */,
+				05172CC350D3B2C0310A254ADB085DF1 /* Pods-ArcBock-ArcBockUITests */,
+				8024B49C13622492C59AFCC44C7C54B1 /* Pods-ArcBockTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1648C21340A8A4864D4849347A6C607B /* Pods-ArcBock */ = {
+			isa = PBXGroup;
+			children = (
+				C44773E5894574BF86E62EF51CD03397 /* Pods-ArcBock.modulemap */,
+				B05FBD29B70EEC19E03250F4450E0A36 /* Pods-ArcBock-acknowledgements.markdown */,
+				681E263699D6CBC888A8932520BD2116 /* Pods-ArcBock-acknowledgements.plist */,
+				A398865A58D433ED1AF9CAA6E534DD8F /* Pods-ArcBock-dummy.m */,
+				D2476C176179F02111EE2CF55131A3F7 /* Pods-ArcBock-Info.plist */,
+				99123CCFCD29BE1F59F059C233EEB4F9 /* Pods-ArcBock-umbrella.h */,
+				D7E6898768FD39E06F31C25E28B7D764 /* Pods-ArcBock.debug.xcconfig */,
+				51B5F504F25D5CC4296EDDD128C17047 /* Pods-ArcBock.release.xcconfig */,
+			);
+			name = "Pods-ArcBock";
+			path = "Target Support Files/Pods-ArcBock";
+			sourceTree = "<group>";
+		};
+		54D6CE59A46DA4DC737DC44449A40E97 /* Pods-ArcBockTests */ = {
+			isa = PBXGroup;
+			children = (
+				75FF74108D0E7ECFF061C766EFC71F79 /* Pods-ArcBockTests.modulemap */,
+				A95FFDAB891CF850A5D4295E42F19410 /* Pods-ArcBockTests-acknowledgements.markdown */,
+				A488ABD0F06D7E806DA014F6E506B8B1 /* Pods-ArcBockTests-acknowledgements.plist */,
+				A21718CAD98D61E1366DCE9CE61894A7 /* Pods-ArcBockTests-dummy.m */,
+				852FC580D9E32B4C4DFE6E6322531E0E /* Pods-ArcBockTests-Info.plist */,
+				C99B0B8C334B8AA4A47A864565A88D28 /* Pods-ArcBockTests-umbrella.h */,
+				99091665C742CB6F72FF71FA2BF66A12 /* Pods-ArcBockTests.debug.xcconfig */,
+				18E1CCB6ECAA3B74A27D03126CD421D8 /* Pods-ArcBockTests.release.xcconfig */,
+			);
+			name = "Pods-ArcBockTests";
+			path = "Target Support Files/Pods-ArcBockTests";
+			sourceTree = "<group>";
+		};
+		806633023E33FB7C60D4CEDE7B24932B /* Pods-ArcBock-ArcBockUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D3DA3A5D4B6088415EA306C39336737A /* Pods-ArcBock-ArcBockUITests.modulemap */,
+				ECBCA73C71581B0A13E255FAB5EAF1E5 /* Pods-ArcBock-ArcBockUITests-acknowledgements.markdown */,
+				A1D3859CD783B754A703A0803A01684C /* Pods-ArcBock-ArcBockUITests-acknowledgements.plist */,
+				794341FF5C085D618305C673A7742513 /* Pods-ArcBock-ArcBockUITests-dummy.m */,
+				CE80475E9643AC4A3343FE54DA26BDFC /* Pods-ArcBock-ArcBockUITests-Info.plist */,
+				BE4ED88FAAD10BB06F14160FDFE92514 /* Pods-ArcBock-ArcBockUITests-umbrella.h */,
+				3472DBF5931F22F5FBEEECE957C7E293 /* Pods-ArcBock-ArcBockUITests.debug.xcconfig */,
+				F760D68171A717CD5F8E8C1F8AEBC5A6 /* Pods-ArcBock-ArcBockUITests.release.xcconfig */,
+			);
+			name = "Pods-ArcBock-ArcBockUITests";
+			path = "Target Support Files/Pods-ArcBock-ArcBockUITests";
+			sourceTree = "<group>";
+		};
+		8DF0242D7E28E4A35B2C5E569419BAD9 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1648C21340A8A4864D4849347A6C607B /* Pods-ArcBock */,
+				806633023E33FB7C60D4CEDE7B24932B /* Pods-ArcBock-ArcBockUITests */,
+				54D6CE59A46DA4DC737DC44449A40E97 /* Pods-ArcBockTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				0CB60EF9A78FF0A052EBD23664C44FF0 /* Products */,
+				8DF0242D7E28E4A35B2C5E569419BAD9 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4801F62A6B08CD9B5410329F1A18FDE /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E4801F62A6B08CD9B5410329F1A18FDE /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1DE6617460CE7551E0D28DEA4D0F3834 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				144F86CA6EFB8D0862DED743234FE62D /* Pods-ArcBock-ArcBockUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D0E9AFEF897ACE754F929D54C07C945 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED67FECAA05FC50BA7D0FCFD965D26B1 /* Pods-ArcBockTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E30D53ADC9E2C9535D724006957E0BC8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB072D5D8C4BCC3E050CBF72C418E34F /* Pods-ArcBock-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		38DF80B0B232D3DC55FAD4DB04CE0886 /* Pods-ArcBock-ArcBockUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 428D2679151DA2AF320C36486271142A /* Build configuration list for PBXNativeTarget "Pods-ArcBock-ArcBockUITests" */;
+			buildPhases = (
+				1DE6617460CE7551E0D28DEA4D0F3834 /* Headers */,
+				8DB9F286A2E70F4CBA51D5D8F4F3D4F0 /* Sources */,
+				03EBC62443FE24B70DB9C31D14CAC787 /* Frameworks */,
+				84F925061EDE6F136FC86BBFB29CDC5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ArcBock-ArcBockUITests";
+			productName = Pods_ArcBock_ArcBockUITests;
+			productReference = 05172CC350D3B2C0310A254ADB085DF1 /* Pods-ArcBock-ArcBockUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+		505E7BD8F996CA06F2A4E9E04B2ED75B /* Pods-ArcBockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0CDF15694D085C711BB8EF052FD70F6 /* Build configuration list for PBXNativeTarget "Pods-ArcBockTests" */;
+			buildPhases = (
+				4D0E9AFEF897ACE754F929D54C07C945 /* Headers */,
+				82D456DA71C40989B5AE3B3CC9EBB5E7 /* Sources */,
+				DE293E31E27A6DA0538748EEC7DAE6C4 /* Frameworks */,
+				6412E90FD8F0617237B671770BCCAA1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				163439E32B0E683485055AFB1151A496 /* PBXTargetDependency */,
+			);
+			name = "Pods-ArcBockTests";
+			productName = Pods_ArcBockTests;
+			productReference = 8024B49C13622492C59AFCC44C7C54B1 /* Pods-ArcBockTests */;
+			productType = "com.apple.product-type.framework";
+		};
+		5EB82C1FB275B6EE086CE09172EDC917 /* Pods-ArcBock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7E575BD4E841D4DF441026DEA77F97F /* Build configuration list for PBXNativeTarget "Pods-ArcBock" */;
+			buildPhases = (
+				E30D53ADC9E2C9535D724006957E0BC8 /* Headers */,
+				D56177C1A0F6275703C03F9EFDD160AF /* Sources */,
+				538555445FFDE23FC3724F9EDBE95AE5 /* Frameworks */,
+				51B17C4F256F2019BE549CAFA212ED6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ArcBock";
+			productName = Pods_ArcBock;
+			productReference = 37F90CEE4DE30631AFF4F7BA7121F70B /* Pods-ArcBock */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 16.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			minimizedProjectReferenceProxies = 0;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 0CB60EF9A78FF0A052EBD23664C44FF0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5EB82C1FB275B6EE086CE09172EDC917 /* Pods-ArcBock */,
+				38DF80B0B232D3DC55FAD4DB04CE0886 /* Pods-ArcBock-ArcBockUITests */,
+				505E7BD8F996CA06F2A4E9E04B2ED75B /* Pods-ArcBockTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		51B17C4F256F2019BE549CAFA212ED6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6412E90FD8F0617237B671770BCCAA1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84F925061EDE6F136FC86BBFB29CDC5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82D456DA71C40989B5AE3B3CC9EBB5E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75CD99C971A848FD2A34097008249140 /* Pods-ArcBockTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DB9F286A2E70F4CBA51D5D8F4F3D4F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35F7C64C667D550EFE8661AFDBA1FD59 /* Pods-ArcBock-ArcBockUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D56177C1A0F6275703C03F9EFDD160AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16BD66998C96F294ACB3D4F910DFE39A /* Pods-ArcBock-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		163439E32B0E683485055AFB1151A496 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ArcBock";
+			target = 5EB82C1FB275B6EE086CE09172EDC917 /* Pods-ArcBock */;
+			targetProxy = 5A07537340CBFA6EC474B0AE6A6A5079 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1A49130EC4BCEF8F46DEFC95FB3776EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F760D68171A717CD5F8E8C1F8AEBC5A6 /* Pods-ArcBock-ArcBockUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-ArcBock-ArcBockUITests/Pods-ArcBock-ArcBockUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ArcBock-ArcBockUITests/Pods-ArcBock-ArcBockUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		59E8734DA70715406493CA912F854277 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5A49448602EC1B17D12ADB02D6EE73BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		6AFFF1DCB6477F7F39C30689A80AF167 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99091665C742CB6F72FF71FA2BF66A12 /* Pods-ArcBockTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-ArcBockTests/Pods-ArcBockTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ArcBockTests/Pods-ArcBockTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C5C2BE0B5959A743E86677FA75DDFF7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7E6898768FD39E06F31C25E28B7D764 /* Pods-ArcBock.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-ArcBock/Pods-ArcBock-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ArcBock/Pods-ArcBock.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F1B6FD87D7F4B53DA10DDDA9CB8B6383 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18E1CCB6ECAA3B74A27D03126CD421D8 /* Pods-ArcBockTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-ArcBockTests/Pods-ArcBockTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ArcBockTests/Pods-ArcBockTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F9E0FED5097E8DA4B2FBAAB7A67872FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3472DBF5931F22F5FBEEECE957C7E293 /* Pods-ArcBock-ArcBockUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-ArcBock-ArcBockUITests/Pods-ArcBock-ArcBockUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ArcBock-ArcBockUITests/Pods-ArcBock-ArcBockUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FB9AA66D2FBD854686FFCC407CF1E1D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51B5F504F25D5CC4296EDDD128C17047 /* Pods-ArcBock.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-ArcBock/Pods-ArcBock-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ArcBock/Pods-ArcBock.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		428D2679151DA2AF320C36486271142A /* Build configuration list for PBXNativeTarget "Pods-ArcBock-ArcBockUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9E0FED5097E8DA4B2FBAAB7A67872FC /* Debug */,
+				1A49130EC4BCEF8F46DEFC95FB3776EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59E8734DA70715406493CA912F854277 /* Debug */,
+				5A49448602EC1B17D12ADB02D6EE73BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0CDF15694D085C711BB8EF052FD70F6 /* Build configuration list for PBXNativeTarget "Pods-ArcBockTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AFFF1DCB6477F7F39C30689A80AF167 /* Debug */,
+				F1B6FD87D7F4B53DA10DDDA9CB8B6383 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7E575BD4E841D4DF441026DEA77F97F /* Build configuration list for PBXNativeTarget "Pods-ArcBock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5C2BE0B5959A743E86677FA75DDFF7B /* Debug */,
+				FB9AA66D2FBD854686FFCC407CF1E1D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
