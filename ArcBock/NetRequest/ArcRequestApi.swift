@@ -14,18 +14,18 @@ class ArcRequestApi {
     func getRequestData<Value: Decodable>(
         url: String,
         type: Value.Type = Value.self,
-        onSuccess: @escaping (Any, Bool) -> Void,
+        onSuccess: @escaping (Blogs, Bool) -> Void,
         onFailed: @escaping (NSError) -> Void
     ) {
         AF.request(url)
             .validate(statusCode: 200..<300)
             .validate(contentType: ["application/json"])
             .responseDecodable(of: type) { response in
-                debugPrint(response)
+//                debugPrint(response)
                 switch response.result
                 {
-                case .success(let userProfile):
-                    onSuccess(userProfile, true)
+                case .success(let data):
+                    onSuccess(data as! Blogs, true)
                 case .failure(let error):
                     onFailed(error as NSError)
                 }

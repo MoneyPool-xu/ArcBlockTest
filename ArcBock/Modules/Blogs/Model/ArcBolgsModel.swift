@@ -7,18 +7,18 @@
 
 import Foundation
 
-struct Blog: Decodable {
+struct Blog: Decodable, Hashable {
     let latestCommenters: [String]
 //    let meta: Meta
     let id: String
     let slug: String
     let title: String
     let author: String
-    let cover: String
+    var cover: String
     let excerpt: String
     let boardId: String
-    let createdAt: String
-    let updatedAt: String
+    var createdAt: String
+    var updatedAt: String
     let commentCount: Int
     let type: String
     let status: String
