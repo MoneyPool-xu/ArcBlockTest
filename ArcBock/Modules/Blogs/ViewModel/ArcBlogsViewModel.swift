@@ -11,7 +11,7 @@ class ArcBlogsViewModel: ObservableObject {
     @Published var blogs: [Blog] = []
     
     func loadData() {
-        ArcRequestApi.shared.getRequestData(url: "https://www.arcblock.io/blog/api/blogs?page=1&size=20&locale=zh", type: Blogs.self) {[self] blogsData, sucess in
+        ArcRequestApi.shared.getRequestData(url: "blogs?page=1&size=20&locale=zh", type: Blogs.self) {[self] blogsData, sucess in
             blogs = resolveData(data: blogsData.data)
 //            print(blogs)
             

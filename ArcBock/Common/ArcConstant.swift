@@ -7,7 +7,9 @@
 
 import Foundation
 
+let BLOG_API_BASE_URL = "https://www.arcblock.io/blog/api/"
 let BLOG_IMAGE_BASE_URL = "https://www.arcblock.io/blog/uploads/"
+let BLOG_BLOG_DETAIL_H5_BASE_URL = "https://www.arcblock.io/blog/zh/"
 
 let BLOG_LABELS = [
     "arcblock": "区块基石",

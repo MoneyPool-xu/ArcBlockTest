@@ -17,7 +17,8 @@ class ArcRequestApi {
         onSuccess: @escaping (Blogs, Bool) -> Void,
         onFailed: @escaping (NSError) -> Void
     ) {
-        AF.request(url)
+        let urlPath = "\(BLOG_API_BASE_URL)\(url)"
+        AF.request(urlPath)
             .validate(statusCode: 200..<300)
             .validate(contentType: ["application/json"])
             .responseDecodable(of: type) { response in
