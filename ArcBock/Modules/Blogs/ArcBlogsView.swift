@@ -17,6 +17,13 @@ struct ArcBlogsView: View {
             List {
                 ForEach($viewModel.blogs, id: \.id) { $blog in
                     BlogCard(blog: blog, viewModel: viewModel)
+                        .background(
+                            NavigationLink(destination: ArcBlogDetail(url: URL(string: "https://www.arcblock.io/blog/zh/\(blog.slug)")!)) {
+                            }
+                        )
+                   
+                    
+//                    BlogCard(blog: blog, viewModel: viewModel)
                 }
             }
                 .listStyle(.plain)
