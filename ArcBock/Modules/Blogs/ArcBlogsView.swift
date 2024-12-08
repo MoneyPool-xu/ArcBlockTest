@@ -21,16 +21,31 @@ struct ArcBlogsView: View {
                             NavigationLink(destination: ArcBlogDetail(url: URL(string: "\(BLOG_BLOG_DETAIL_H5_BASE_URL)\(blog.slug)")!)) {
                             }
                         )
-                   
-                    
-//                    BlogCard(blog: blog, viewModel: viewModel)
+                        .onAppear {
+                            if blog == viewModel.blogs.last {
+                                viewModel.loadMoreData()
+                            }
+                        }
                 }
             }
                 .listStyle(.plain)
+                .refreshable {
+                    viewModel.loadFirstPageData()
+                }
+            if viewModel.isLoadingMore {
+                HStack {
+                    ProgressView()
+                        .progressViewStyle(CircularProgressViewStyle(tint: .blue))
+                        .frame(width: 10, height: 10)
+                    Text("Loading More Data")
+                        .font(.system(size: 14))
+                        .foregroundColor(Color.blue)
+                }
+            }
         }
         .padding()
         .onAppear {
-            viewModel.loadData()
+            viewModel.loadFirstPageData()
         }
     }
 }

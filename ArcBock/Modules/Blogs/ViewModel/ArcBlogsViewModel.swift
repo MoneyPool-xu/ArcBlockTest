@@ -9,13 +9,48 @@ import Foundation
 
 class ArcBlogsViewModel: ObservableObject {
     @Published var blogs: [Blog] = []
+    @Published var isLoading = false
+    @Published var isLoadingMore = false
+    private var currentPage = 1
+    private let apiService = ArcRequestApi.shared
     
-    func loadData() {
-        ArcRequestApi.shared.getRequestData(url: "blogs?page=1&size=20&locale=zh", type: Blogs.self) {[self] blogsData, sucess in
-            blogs = resolveData(data: blogsData.data)
-//            print(blogs)
-            
+    // request the data
+    private func loadData(
+        onSuccess: @escaping ([Blog]) -> Void,
+        onFailed: @escaping () -> Void
+    ) {
+        apiService.getRequestData(url: "blogs?page=\(currentPage)&size=20&locale=zh", type: Blogs.self) { blogsData, sucess in
+            onSuccess(blogsData.data)
         } onFailed: { error in
+            onFailed()
+        }
+    }
+    
+    // request the data of first page
+    func loadFirstPageData() {
+        currentPage = 1
+        isLoading = true
+        loadData() { [self] data in
+            isLoading = false
+            blogs = resolveData(data: data)
+        } onFailed: { [self] in
+            isLoading = false
+        }
+    }
+    
+    // request the more data with other page
+    func loadMoreData() {
+        guard !isLoadingMore else {
+            return
+        }
+        isLoadingMore = true
+        currentPage += 1
+        loadData {[self] data in
+            isLoadingMore = false
+            let newBlogs = resolveData(data: data)
+            blogs.append(contentsOf: newBlogs)
+        } onFailed: {[self] in
+            isLoadingMore = false
         }
     }
     
