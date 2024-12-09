@@ -41,4 +41,6 @@ Cocoapods 1.16.2
   b. 使用Combine 进行与swftui的响应式数据绑定
   c. model 进行数据解析映射
   d. 使用Alamofire进行网络请求，可直接将json数据解析映射到model
+  e. Kingfisher 支持SwiftUI的图片缓存(内存、磁盘)处理库
+  f. blog详情页展示H5，Native代码隐藏了H5页面的Header部分，使示更美观
 ```
